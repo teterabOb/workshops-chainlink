@@ -11,6 +11,39 @@ Primero clonar el repositorio.
 git  clone https://github.com/teterabOb/workshops-chainlink
 ```
 
+Situarse en le carpeta del proyecto de Staking
+
+```
+cd 1_Staking
+```
+
+Instalar las dependencias del package.json
+
+Utilizando yarn
+
+```
+yarn 
+```
+
+Utilizando npm
+
+```
+npm install
+```
+
+Compilar contratos
+
+```
+npx hardhat compile
+```
+
+Desplegar contratos en red local
+
+```
+npx hardhat deploy
+```
+
+
 ## Contribución
 Pull requests son bienvenidas. Para mayor cambios, por favor abrir un issue para primero discutir que te gustaría cambiar.
 
