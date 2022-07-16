@@ -14,8 +14,8 @@ Este es un workshop para la comunidad de Chainlink en Español. Basado en el alg
 
 Este Workshop se dividió en dos partes, una fué teórica con el fin de introducir a las personas en los conceptos más utilizados en el desarrollo de productos financieros construidos sobre tecnologías descentralizadas. La segunda parte fué cien por ciento práctica y se abordó el desarrollo del smart contract. 
 
-[Video Primera Parte : Teórica Introducción a DeFi](https://www.youtube.com/watch?v=lkyQfluInpE)
-[Video Segunda Parte : Práctica Desarrollo del Smart Contract](https://www.youtube.com/watch?v=976_xy7gb_c)
+1. [Video Primera Parte : Teórica Introducción a DeFi](https://www.youtube.com/watch?v=lkyQfluInpE)
+2. [Video Segunda Parte : Práctica Desarrollo del Smart Contract](https://www.youtube.com/watch?v=976_xy7gb_c)
 
 
 Próximamante: hasta el momento el repositorio cuenta con los archivos necesarios para el despliegue de los contratos, como equipo nos encontramos trabajando para que prontamente cuente con los scripts de despliegue y testing para que puedan probar todo el ciclo de desarrollo. 
