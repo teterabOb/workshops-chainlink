@@ -6,14 +6,16 @@ con la comunidad de Chainlink en Español.
 Siéntanse con la libertad de aportar lo que estimen conveniente, entre todos
 generamos un código más robusto y completo.
 
-## Listado Workshops
+# Listado Workshops
 
-1. Staking: este es un workshop para la comunidad de Chainlink en Español. Basado en el algoritmo de StakingReward desarrollado por Synthetix. Inspirado en el trabajo realizado por los chicos del equipo en Inglés, traducido con el fin de promover el contenido en español.
+## Staking
+
+Este es un workshop para la comunidad de Chainlink en Español. Basado en el algoritmo de StakingReward desarrollado por Synthetix. Inspirado en el trabajo realizado por los chicos del equipo en Inglés, traducido con el fin de promover el contenido en español.
 
 Este Workshop se dividió en dos partes, una fué teórica con el fin de introducir a las personas en los conceptos más utilizados en el desarrollo de productos financieros construidos sobre tecnologías descentralizadas. La segunda parte fué cien por ciento práctica y se abordó el desarrollo del smart contract. 
 
-Video Primera Parte : Teórica Introducción a DeFi
-Video Segunda Parte : Práctica Desarrollo del Smart Contract
+[Video Primera Parte : Teórica Introducción a DeFi](https://www.youtube.com/watch?v=lkyQfluInpE)
+[Video Segunda Parte : Práctica Desarrollo del Smart Contract](https://www.youtube.com/watch?v=976_xy7gb_c)
 
 
 Próximamante: hasta el momento el repositorio cuenta con los archivos necesarios para el despliegue de los contratos, como equipo nos encontramos trabajando para que prontamente cuente con los scripts de despliegue y testing para que puedan probar todo el ciclo de desarrollo. 
