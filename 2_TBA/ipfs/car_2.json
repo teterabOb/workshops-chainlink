@@ -1,0 +1,15 @@
+{
+    "name": "El Auto",
+    "description" : "Este auto se transforma con el tiempo",
+    "image" : "https://ipfs.io/ipfs/QmNvKXiGwtmUgvCFLKZvYc7TTy4H4QoFBMgY5Jc3DAXBnr/car_2.png",
+    "attributes": [
+        {
+            "trait-type": "EtapaDelAuto",
+            "value": "Mediano"
+        },
+        {
+            "trait-type": "Color",
+            "value": "Red"
+        }
+    ]
+}
