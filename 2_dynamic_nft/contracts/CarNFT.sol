@@ -29,12 +29,12 @@ contract CarNFT is ERC721, ERC721URIStorage, KeeperCompatibleInterface {
         lastTimeStamp = block.timestamp;
     }
 
-    function checkUpkeep(bytes calldata /* checkData */) external view returns (bool upkeepNeeded, bytes memory /* performData */) {
+    function checkUpkeep(bytes calldata /* checkData */) external view override returns (bool upkeepNeeded, bytes memory /* performData */) {
         upkeepNeeded = (block.timestamp - lastTimeStamp) > interval;
         // We don't use the checkData in this example. The checkData is defined when the Upkeep was registered.
     }
 
-    function performUpkeep(bytes calldata /* performData */) external  {
+    function performUpkeep(bytes calldata /* performData */) external override  {
         //We highly recommend revalidating the upkeep in the performUpkeep function
         if ((block.timestamp - lastTimeStamp) > interval ) {
             lastTimeStamp = block.timestamp;
