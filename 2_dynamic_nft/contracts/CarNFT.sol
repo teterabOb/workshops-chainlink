@@ -73,12 +73,11 @@ contract CarNFT is KeeperCompatibleInterface, ERC721, ERC721URIStorage  {
         string memory _uri = tokenURI(_tokenId);
 
         uint result;
-
+        
         for (uint256 index = 0; index < IpfsUri.length; index++) {            
             if(keccak256(abi.encodePacked(IpfsUri[index])) == keccak256(abi.encodePacked(_uri)))
                 result = index;
         }
-
         return result;
     }
 
